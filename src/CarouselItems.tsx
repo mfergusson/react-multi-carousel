@@ -60,7 +60,7 @@ const CarouselItems = ({
                   goToSlide(index);
                 }
               }}
-              aria-hidden={getIfSlideIsVisbile(index, state) ? "false" : "true"}
+              aria-hidden="false"
               aria-label={
                 itemAriaLabel
                   ? itemAriaLabel
